@@ -1,16 +1,16 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
 import { HttpClientModule } from "@angular/common/http";
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MenuComponent } from './components/menu/menu.component';
+import { BrowserModule } from "@angular/platform-browser";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
-import {MenuModule} from 'primeng/menu';
-import {MenubarModule} from 'primeng/menubar';
+import { MenuModule } from "primeng/menu";
+import { MenubarModule } from "primeng/menubar";
+import { NavbarComponent } from "./components/navbar/navbar.component";
 
 @NgModule({
-  declarations: [MenuComponent],
+  declarations: [NavbarComponent, NavbarComponent],
   imports: [
     CommonModule,
     HttpClientModule,
@@ -24,8 +24,8 @@ import {MenubarModule} from 'primeng/menubar';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MenuComponent,
+    NavbarComponent,
     MenubarModule
   ]
 })
-export class CoreModule { }
+export class CoreModule {}
