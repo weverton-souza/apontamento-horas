@@ -9,6 +9,7 @@ import { MenuItem } from "primeng/api";
 })
 export class MenuComponent implements OnInit {
   private items: MenuItem[];
+  private nametext = "Relatdfsdfsdfdor";
 
   constructor() {}
 
