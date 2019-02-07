@@ -1,13 +1,12 @@
 import { Component, OnInit } from "@angular/core";
-
 import { MenuItem } from "primeng/api";
 
 @Component({
-  selector: "app-menu",
-  templateUrl: "./menu.component.html",
-  styleUrls: ["./menu.component.scss"]
+  selector: "app-navbar",
+  templateUrl: "./navbar.component.html",
+  styleUrls: ["./navbar.component.scss"]
 })
-export class MenuComponent implements OnInit {
+export class NavbarComponent implements OnInit {
   private items: MenuItem[];
   private nametext = "Relatdfsdfsdfdor";
 
